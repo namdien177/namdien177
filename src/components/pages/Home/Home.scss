@@ -1,0 +1,47 @@
+.home-container {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "bg-avatar greetings";
+  height: 100vh;
+  width: 100%;
+
+  .background {
+    grid-area: bg-avatar;
+  }
+
+  .greetings {
+    grid-area: greetings;
+  }
+}
+
+.greetings {
+  .big-title {
+    font-size: 4rem;
+  }
+
+  .small-title {
+    font-size: 1.5rem;
+  }
+
+  .medium-title {
+    font-size: 2.5rem;
+  }
+
+  .blue-text {
+    color: #50aeff;
+  }
+
+  .divider {
+    width: 5rem;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+.background {
+  .pseudo-bg {
+    clip-path: polygon(90% 0, 100% 0, 100% 100%, 50% 100%);
+    right: -1px;
+  }
+}
