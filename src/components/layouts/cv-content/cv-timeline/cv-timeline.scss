@@ -1,0 +1,35 @@
+.cvTimeLine-container {
+  grid-template-columns: 65px 5px auto;
+  grid-column-gap: 15px;
+  padding: 0 0 0 1rem;
+
+  .timeline-duration {
+    font-size: 0.9rem;
+  }
+
+  .timeline-handle {
+    .line-handle {
+      background: var(--mutedColor);
+      width: 2px;
+      margin-top: 0.35rem;
+
+      &:before {
+        width: 8px;
+        height: 8px;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--mutedColor);
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .timeline-content {
+    header {
+      font-size: 1.2rem;
+    }
+  }
+}

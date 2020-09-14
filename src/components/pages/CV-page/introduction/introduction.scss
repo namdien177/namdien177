@@ -1,0 +1,23 @@
+.IntroFacts-container {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+  color: var(--colorPrimary);
+
+  .circle-info {
+    .circle-brief {
+      user-select: none;
+      padding-bottom: calc(100% - 3rem);
+      border: 2px solid var(--colorPrimary);
+
+      .brief-content {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+
+        small.cl-grayer {
+          font-size: 0.8rem;
+          line-height: 0.8rem;
+        }
+      }
+    }
+  }
+}

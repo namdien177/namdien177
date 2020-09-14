@@ -1,0 +1,18 @@
+.contact-pill {
+  height: 1.5rem;
+  grid-gap: 0.5rem;
+  grid-template-columns: 1.5rem auto;
+
+  > .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+
+    i {
+      font-size: 0.7rem;
+    }
+  }
+
+  > .text {
+    font-size: 0.9rem;
+  }
+}

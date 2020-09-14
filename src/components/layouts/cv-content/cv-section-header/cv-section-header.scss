@@ -1,0 +1,24 @@
+.cv-title-container {
+  grid-template-columns: 4rem auto;
+  grid-gap: calc(120px - 5rem);
+  grid-template-rows: 1fr;
+  min-height: 4rem;
+
+  > .icon {
+    width: 3rem;
+    height: 3rem;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid var(--colorPrimary);
+    color: var(--colorPrimary);
+
+    i {
+      font-size: 1.5rem;
+    }
+  }
+
+  > .content {
+    font-size: 3rem;
+    width: max-content;
+  }
+}

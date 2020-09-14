@@ -2,6 +2,10 @@ import React from "react";
 import "./Home.scss";
 
 export default class Home extends React.Component {
+  toCVPage = () => {
+    this.props.history.push("/cv-page");
+  };
+
   render() {
     return (
       <div className="grid gap-1 bg-darker cl-white home-container">
@@ -29,7 +33,9 @@ export default class Home extends React.Component {
 
           <h3 className="m0 medium-title cl-warning">Web Developer!</h3>
           <div className="mt1 btn-section">
-            <button className="btn btn-home outline">View More</button>
+            <button onClick={this.toCVPage} className="btn btn-home outline">
+              View More
+            </button>
           </div>
         </div>
       </div>

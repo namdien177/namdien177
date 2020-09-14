@@ -1,14 +1,8 @@
 @import "styles/core";
 @import "styles/button";
 
-* {
-  box-sizing: border-box;
-}
+$sidebarColor: rgb(49, 59, 70);
 
-body {
-  margin: 0;
-  font-family: Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+.cl-sidebar {
+  color: $sidebarColor;
 }
