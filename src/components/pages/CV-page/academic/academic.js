@@ -13,7 +13,7 @@ export class Academic extends React.Component {
 
         <CvTimeline
           from={"Jul/2016"}
-          to={"Feb/2019"}
+          to={"Feb/2020"}
           subHeader={"Bachelor in Computer Science"}
           header={"University of Greenwich"}
           content={"FPT branch, Hanoi."}

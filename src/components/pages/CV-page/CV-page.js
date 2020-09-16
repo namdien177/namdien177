@@ -5,6 +5,7 @@ import { Introduction } from "./introduction/introduction";
 import { Academic } from "./academic/academic";
 import { WorkExperience } from "./work-experience/work-experience";
 import { Projects } from "./projects/projects";
+import { SkillLeague } from "./skill-league/skill-league";
 
 export default class CVPage extends React.Component {
   render() {
@@ -54,6 +55,10 @@ export default class CVPage extends React.Component {
           <hr className="divider-content" />
 
           <Academic />
+
+          <hr className="divider-content" />
+
+          <SkillLeague />
 
           <hr className="divider-content" />
 

@@ -43,15 +43,25 @@ export class Projects extends React.Component {
         <CvSectionHeader iconFa={"far fa-file-code"} content={"Projects"} />
 
         <CvTimeline
-          from={"Nov/2018"}
-          to={"May/2019"}
-          subHeader={"Sprasia"}
-          header={"Jasso Web System"}
+          from={"Sep/2019"}
+          to={"Now"}
+          subHeader={"Wize - Nikkei JP"}
+          header={"Wize CMS Chart Builder"}
           content={
-            "Internal web system to manage and deliver information to thousands of university in Japan"
+            "A website allows user to generate different graphs with provided data and able to export it to many different file type (PNG, HTML, SVG, PDF)"
           }
         >
-          <CvProjectTable projectInfo={jasso} />
+          <CvProjectTable projectInfo={chartBuilder} />
+        </CvTimeline>
+
+        <CvTimeline
+          from={"Jul/2019"}
+          to={"Sep/2019"}
+          subHeader={"Wize"}
+          header={"Wize Slot Machine"}
+          content={"SPA Web System to managing slot machines"}
+        >
+          <CvProjectTable projectInfo={slotMachine} />
         </CvTimeline>
 
         <CvTimeline
@@ -67,25 +77,15 @@ export class Projects extends React.Component {
         </CvTimeline>
 
         <CvTimeline
-          from={"Jul/2019"}
-          to={"Sep/2019"}
-          subHeader={"Wize"}
-          header={"Wize Slot Machine"}
-          content={"SPA Web System to managing slot machines"}
-        >
-          <CvProjectTable projectInfo={slotMachine} />
-        </CvTimeline>
-
-        <CvTimeline
-          from={"Sep/2019"}
-          to={"Now"}
-          subHeader={"Wize - Nikkei JP"}
-          header={"Wize CMS Chart Builder"}
+          from={"Nov/2018"}
+          to={"May/2019"}
+          subHeader={"Sprasia"}
+          header={"Jasso Web System"}
           content={
-            "A website allows user to generate different graphs with provided data and able to export it to many different file type (PNG, HTML, SVG, PDF)"
+            "Internal web system to manage and deliver information to thousands of university in Japan"
           }
         >
-          <CvProjectTable projectInfo={chartBuilder} />
+          <CvProjectTable projectInfo={jasso} />
         </CvTimeline>
       </div>
     );

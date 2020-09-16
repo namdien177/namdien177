@@ -14,7 +14,7 @@ export class CvProjectTable extends React.Component {
       rowDefault = [];
       Object.keys(projectInfo).forEach((key) => {
         rowDefault.push(
-          <tr>
+          <tr key={key}>
             <td className="head">{key}</td>
             <td>{projectInfo[key]}</td>
           </tr>
@@ -44,7 +44,9 @@ export class CvProjectTable extends React.Component {
 
     return (
       <div className="flex flex-d-col mt1">
-        <TableComps>{rowDefault}</TableComps>
+        <TableComps>
+          <tbody>{rowDefault}</tbody>
+        </TableComps>
       </div>
     );
   }
