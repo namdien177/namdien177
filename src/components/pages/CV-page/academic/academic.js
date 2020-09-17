@@ -8,7 +8,7 @@ export class Academic extends React.Component {
       <div className="p1 flex flex-d-col">
         <CvSectionHeader
           iconFa={"fas fa-graduation-cap"}
-          content={"Academic & Certificates"}
+          content={"Academic"}
         />
 
         <CvTimeline
@@ -17,29 +17,26 @@ export class Academic extends React.Component {
           subHeader={"Bachelor in Computer Science"}
           header={"University of Greenwich"}
           content={"FPT branch, Hanoi."}
-        />
-
-        <CvTimeline
-          from={"Jul/2016"}
-          to={"Sep/2018"}
-          subHeader={
-            "BTEC HND Certificate in Computing and Systems Development (QCF)"
-          }
-          header={"FPT Greenwich, FPT University"}
-          content={
-            "Distinction grade in BTEC HND (Business And Technology Education Council Higher National Diploma)."
-          }
-        />
-
-        <CvTimeline
-          from={"Sep/2018"}
-          to={"Dec/2018"}
-          subHeader={"On-Job-Training Certificate"}
-          header={"FPT Greenwich, FPT University"}
-          content={
-            "Intern Program allows student to gain practical working experience while still in school."
-          }
-        />
+        >
+          <ul className="mt05 cl-primary">
+            <li>
+              First Class degree in <i>Computer Science</i> field.
+            </li>
+            <li>
+              <a
+                className="td-none cl-info"
+                href="https://github.com/namdien177/gitme-git-client"
+              >
+                The final project
+              </a>{" "}
+              scored 77/100.
+            </li>
+            <li>
+              6 times as <i>Best student of the semester</i> and{" "}
+              <i>Highest score in the semester of a subject</i>.
+            </li>
+          </ul>
+        </CvTimeline>
       </div>
     );
   }

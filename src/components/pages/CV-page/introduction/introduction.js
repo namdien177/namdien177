@@ -48,6 +48,29 @@ export class Introduction extends React.Component {
               factContent={"Major End-Clients"}
             />
           </div>
+
+          <ul className="mt2 cl-primary">
+            <li>
+              Contributor of <span className="fw-bold">Definitely Typed</span>{" "}
+              package:{" "}
+              <a
+                className="td-none cl-info"
+                href="https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/simple-oauth2/index.d.ts"
+              >
+                @types/simple-oauth2
+              </a>
+            </li>
+            <li className="mt02">
+              Contributor of <span className="fw-bold">Onedrive-API</span>{" "}
+              package:{" "}
+              <a
+                className="td-none cl-info"
+                href="https://github.com/dkatavic/onedrive-api/pull/29"
+              >
+                dkatavic/onedrive-api
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     );

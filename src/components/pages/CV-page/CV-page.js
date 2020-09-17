@@ -6,6 +6,7 @@ import { Academic } from "./academic/academic";
 import { WorkExperience } from "./work-experience/work-experience";
 import { Projects } from "./projects/projects";
 import { SkillLeague } from "./skill-league/skill-league";
+import { Certificate } from "./certificate/certificate";
 
 export default class CVPage extends React.Component {
   render() {
@@ -41,12 +42,18 @@ export default class CVPage extends React.Component {
               content={"github.com/namdien177"}
             />
             <ContactPill
+              iconFa={"fab fa-linkedin"}
+              content={"linkedin.com/in/do-nam"}
+            />
+            <ContactPill
               iconFa={"fas fa-map-marker-alt"}
               content={"Giai Phong, Hanoi"}
             />
           </div>
 
           <hr className="divider-sidebar" />
+
+          <Certificate />
         </div>
 
         <div className="flex flex-d-col content">
