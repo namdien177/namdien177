@@ -7,18 +7,19 @@ import { WorkExperience } from "./work-experience/work-experience";
 import { Projects } from "./projects/projects";
 import { SkillLeague } from "./skill-league/skill-league";
 import { Certificate } from "./certificate/certificate";
+import { Hobby } from "./hobby/hobby";
 
 export default class CVPage extends React.Component {
   render() {
     return (
       <div className="grid cv-container">
         <div className="flex flex-d-col sidebar">
-          <div className="grid place-item-center pb1 user-avatar">
+          <div className="grid place-item-center pb1 pt1 user-avatar">
             <div className="br50 of-hidden avatar">
               <img
                 src="/images/winter-img.jpg"
                 className="w100pct h100pct obj-fit-cover obj-pos-center"
-                alt="me on Fansipan"
+                alt="Me on Fansipan"
               />
             </div>
           </div>
@@ -54,6 +55,10 @@ export default class CVPage extends React.Component {
           <hr className="divider-sidebar" />
 
           <Certificate />
+
+          <hr className="divider-sidebar" />
+
+          <Hobby />
         </div>
 
         <div className="flex flex-d-col content">
