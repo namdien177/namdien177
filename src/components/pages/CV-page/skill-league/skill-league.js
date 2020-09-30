@@ -38,10 +38,10 @@ export class SkillLeague extends React.Component {
                 Front-end skills
               </div>
               <ul className="m0">
-                <li>Angular 8+</li>
-                <li>D3.JS</li>
-                <li>Protractor</li>
+                <li className="fw-bold">Angular 8+</li>
+                <li className="fw-bold">D3.JS</li>
                 <li>Akita State Management</li>
+                <li>Protractor</li>
                 <li>ReactJS</li>
               </ul>
             </div>
@@ -51,7 +51,7 @@ export class SkillLeague extends React.Component {
                 Back-end skills
               </div>
               <ul className="m0">
-                <li>NodeJS</li>
+                <li className="fw-bold">NodeJS</li>
                 <li>PHP Laravel</li>
               </ul>
             </div>

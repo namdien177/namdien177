@@ -8,6 +8,7 @@ import { Projects } from "./projects/projects";
 import { SkillLeague } from "./skill-league/skill-league";
 import { Certificate } from "./certificate/certificate";
 import { Hobby } from "./hobby/hobby";
+import { References } from "./references/references";
 
 export default class CVPage extends React.Component {
   render() {
@@ -59,6 +60,10 @@ export default class CVPage extends React.Component {
           <hr className="divider-sidebar" />
 
           <Hobby />
+
+          <hr className="divider-sidebar" />
+
+          <References />
         </div>
 
         <div className="flex flex-d-col content">
@@ -79,6 +84,22 @@ export default class CVPage extends React.Component {
           <hr className="divider-content" />
 
           <Projects />
+
+          <hr className="divider-content" />
+
+          <small className="flex flex-d-col align-item-flex-end pt1 pb1">
+            <i>This CV is created by Do Hoang Nam</i>
+            <i>using ReactJS v16.13.1 and GoFullPage Extension</i>
+            <i>Source code is available at:</i>
+            <i>
+              <a
+                className="td-none cl-primary"
+                href="https://github.com/namdien177/namdien177"
+              >
+                github.com/namdien177/namdien177
+              </a>
+            </i>
+          </small>
         </div>
       </div>
     );

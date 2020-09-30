@@ -16,10 +16,23 @@ export class Introduction extends React.Component {
 
           <p className="cl-primary ta-justify m0">
             As a youthful, avid learner and easy to adapt to the job
-            requirements, combined with over 2 years of working in Japan client
+            requirements, with over 2 years of working in Japan client
             environment as a MEAN stack developer, I will use my best knowledge
             and ability to contribute further to the future success of the
             company.
+          </p>
+
+          <p className="cl-primary ta-justify m0 mt1">
+            <span className="fw-bold">My short-term goals</span> are to learn
+            and work in a fully enterprise system to understand the principles
+            in developing or maintaining a large system.
+          </p>
+
+          <p className="cl-primary ta-justify m0 mt1">
+            <span className="fw-bold">My long-term goals</span> are to become a
+            DevOps engineer and specialize in web-cloud system development,
+            while contributing to the community by developing public libraries
+            in different fields.
           </p>
 
           <h3 className="cl-grayer fw-normal mt2 mb02">Quick Facts</h3>
