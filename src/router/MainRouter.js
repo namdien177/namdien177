@@ -8,8 +8,8 @@ const MainRouter = () => (
   <Router>
     <Suspense fallback={<div>Loading...</div>}>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/cv-page" component={CVPage} />
+        <Route exact path="/namdien177" component={Home} />
+        <Route path="/namdien177/cv-page" component={CVPage} />
       </Switch>
     </Suspense>
   </Router>
