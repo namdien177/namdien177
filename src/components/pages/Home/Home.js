@@ -3,7 +3,7 @@ import "./Home.scss";
 
 export default class Home extends React.Component {
   toCVPage = () => {
-    this.props.history.push("/namdien177/cv-page");
+    this.props.history.push("/cv-page");
   };
 
   render() {
