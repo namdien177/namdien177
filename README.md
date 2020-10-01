@@ -4,8 +4,7 @@
 - ⚡ Fun fact:
   - Born in VietNam.
   - Bachelor in Computer Science.
-  - I'm the collaborator of [@types/simple-oauth2](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/simple-oauth2/index.d.ts) and [@dkatavic/onedrive-api](https://github.com/dkatavic/onedrive-api/pull/29)
-  - Quite an introvert.
+  - Collaborator of [@types/simple-oauth2](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/simple-oauth2/index.d.ts) and [@dkatavic/onedrive-api](https://github.com/dkatavic/onedrive-api/pull/29)
   - Yes, my GitHub name is translated as `crazy nam`.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
