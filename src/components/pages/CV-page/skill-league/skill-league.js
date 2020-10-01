@@ -63,7 +63,7 @@ export class SkillLeague extends React.Component {
               <ul className="m0">
                 <li>MongoDB - Mongoose</li>
                 <li>MySQL</li>
-                <li>SQL</li>
+                <li>SQL Server</li>
               </ul>
             </div>
 
