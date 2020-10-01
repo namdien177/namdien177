@@ -52,7 +52,7 @@ export class SkillLeague extends React.Component {
               </div>
               <ul className="m0">
                 <li className="fw-bold">NodeJS</li>
-                <li>PHP Laravel</li>
+                <li>PHP Laravel 5.x</li>
               </ul>
             </div>
 
