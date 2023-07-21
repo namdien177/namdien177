@@ -1,13 +1,16 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on developing a platform for small artists to grow.
+- 🌱 I’m currently learning
+  - NextJS
+  - SolidJS
+  - Server deployment and management.
 - ⚡ Fun fact:
   - Born in VietNam.
   - Bachelor in Computer Science.
   - Collaborator of [@types/simple-oauth2](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/simple-oauth2/index.d.ts) and [@dkatavic/onedrive-api](https://github.com/dkatavic/onedrive-api/pull/29)
-  - Yes, my GitHub name is translated as `crazy nam`.
+  - Angular is the love
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [NX CLI](https://nx.dev/getting-started/nx-setup).
 
 <!--
 **namdien177/namdien177** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
